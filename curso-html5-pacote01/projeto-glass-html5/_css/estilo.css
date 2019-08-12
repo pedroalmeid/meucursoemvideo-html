@@ -30,3 +30,26 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
 
+/* Formatação do Menu */
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -18px;
+    left: 1200px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #E4E6E7;
+    padding: 10px;
+    margin: 2px;
+    font-family: 'Roboto','Arial';
+    font-weight: bold;
+    font-size: 10pt;
+}
+nav#menu h1{
+    display: none;
+}
