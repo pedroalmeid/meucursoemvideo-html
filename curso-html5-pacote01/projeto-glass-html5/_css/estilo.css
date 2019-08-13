@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
+body{
+    background-color: #D1D1D1;
+}
+
+/* Formatação da Interface de Elementos Principal */
+div#interface{
+    width: 1680px;
+    background-color: #FFF;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    padding: 12px;
+}
+
+/* Formatação do cabeçalho */
+    /* Formatação do ícone */
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1650px;
+    top: 50px;
+}
+
 /* Formatação de Parágrafos */
 p{
     text-align: justify;
