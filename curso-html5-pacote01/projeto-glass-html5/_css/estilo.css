@@ -43,13 +43,24 @@ nav#menu ul{
 }
 nav#menu li{
     display: inline-block;
-    background-color: #E4E6E7;
+    background-color: #D1D1D1;
     padding: 10px;
     margin: 2px;
-    font-family: 'Roboto','Arial';
-    font-weight: bold;
-    font-size: 10pt;
+    transition: background-color 1.2s
+}
+nav#menu li:hover{
+    background-color: #9C9C9C;
+    box-shadow: 1px 1px 2.5px #414141;
 }
 nav#menu h1{
     display: none;
+}
+nav#menu a{
+    font-family: 'Roboto', 'Arial';
+    font-size: 12pt;
+    text-decoration: none;
+    color: #000000;
+}
+nav#menu a:hover{
+    color: #FFF;
 }
