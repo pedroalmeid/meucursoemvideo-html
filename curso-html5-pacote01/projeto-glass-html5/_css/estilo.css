@@ -105,3 +105,29 @@ nav#menu a{
 nav#menu a:hover{
     color: #FFF;
 }
+
+/* Formatação do corpo principal (section) */
+section#corpo{
+    display: block;
+    width: 915px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+/* Formatação do bloco lateral (aside) */
+aside#lateral{
+    display: block;
+    width: 680px;
+    float: right;
+}
+
+/* Formatação do rodapé (footer) */
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    text-align: center;
+}
